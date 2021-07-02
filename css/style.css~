@@ -1,0 +1,126 @@
+/*
+ * CSS 3 shimmer Effect
+ * Author: Andy Park
+ * Created: January 3, 2012
+ *
+ * Code is open to copy, edit, redistribute, etc.
+ *
+ * Phantom image sprite from FinalFantasy VI.
+ * All other images purchased by Andy Park from iStock for single use.
+ */
+
+body {
+    background-color: #fff;
+}
+.wrapper {
+    width: 532px;
+    margin: 0 auto;
+}
+section {
+    display: block;
+    height: 25px;
+    padding: 0 50px;
+    width: 216px;
+
+    background-repeat: no-repeat;
+
+    -webkit-transition-property: background-position;
+    -webkit-transition-duration: 0.5s;
+}
+
+.skull section {
+    background-image: url('../images/skull.png');
+}
+.insect section {
+    background-image: url('../images/vector.png');
+}
+.phantom section {
+    background-image: url('../images/phantom.png');
+}
+
+#r1 {
+    background-position: 0 0;
+}
+#r2 {
+    background-position: 0 -25px;
+}
+#r3 {
+    background-position: 0 -50px;
+}
+#r4 {
+    background-position: 0 -75px;
+}
+#r5 {
+    background-position: 0 -100px;
+}
+#r6 {
+    background-position: 0 -125px;
+}
+#r7 {
+    background-position: 0 -150px;
+}
+#r8 {
+    background-position: 0 -175px;
+}
+#r9 {
+    background-position: 0 -200px;
+}
+#r10 {
+    background-position: 0 -225px;
+}
+#r11 {
+    background-position: 0 -250px;
+}
+#r12 {
+    background-position: 0 -275px;
+}
+#r13 {
+    background-position: 0 -300px;
+}
+#r14 {
+    background-position: 0 -325px;
+}
+
+
+#r1.active {
+    background-position: 20px 0;
+}
+#r2.active {
+    background-position: 20px -25px;
+}
+#r3.active {
+    background-position: 20px -50px;
+}
+#r4.active {
+    background-position: 20px -75px;
+}
+#r5.active {
+    background-position: 20px -100px;
+}
+#r6.active {
+    background-position: 20px -125px;
+}
+#r7.active {
+    background-position: 20px -150px;
+}
+#r8.active {
+    background-position: 20px -175px;
+}
+#r9.active {
+    background-position: 20px -200px;
+}
+#r10.active {
+    background-position: 20px -225px;
+}
+#r11.active {
+    background-position: 20px -250px;
+}
+#r12.active {
+    background-position: 20px -275px;
+}
+#r13.active {
+    background-position: 20px -300px;
+}
+#r14.active {
+    background-position: 20px -325px;
+}

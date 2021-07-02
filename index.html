@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+		<meta name="author" content="Andy Park" />
+		<meta name="description" content="A wave effect applied to an image with CSS 3 transitions." />
+        <title>CSS Wave Animation</title>
+        <script type="text/javascript" src="js/animation.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/style.css" media="screen" name="animation" />
+    </head>
+    <body class="skull">
+        <div class="wrapper">
+            <header>
+                <h1>Demo: Wave Effect with CSS 3 Transitions</h1>
+				<p>by <a href="http://www.atparkweb.com">Andy Park</a></p>
+            </header>
+            <div class="links">
+                <h2>Click a link to change the image:</h2>
+                <ul>
+                    <li><a id="skull-link" title="skull" href="javascript:void(0);" class="current">Skull</a></li>
+                    <li><a id="phantom-link" title="phantom" href="javascript:void(0);">Phantom</a></li>
+                    <li><a id="insect-link" title="insect" href="javascript:void(0);">Insect</a></li>
+                </ul>
+            </div>
+            <div id="main">
+                <section id="r1"></section>
+                <section id="r2"></section>
+                <section id="r3"></section>
+                <section id="r4"></section>
+                <section id="r5"></section>
+                <section id="r6"></section>
+                <section id="r7"></section>
+                <section id="r8"></section>
+                <section id="r9"></section>
+                <section id="r10"></section>
+                <section id="r11"></section>
+                <section id="r12"></section>
+                <section id="r13"></section>
+                <section id="r14"></section>
+            </div>
+		<footer>
+			<small>&#174;Copyright 2011. Andy Park. All rights reserved.<br />Images purchased, for individual use, from <a href="http://istock.com">iStock Photo</a>.</small>
+		</footer>
+        </div>
+    </body>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            init();
+        });
+    </script>
+</html>
